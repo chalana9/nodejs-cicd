@@ -4,12 +4,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/chalana9/nodejs-cicd.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 sh 'npm install'
