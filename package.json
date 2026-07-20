@@ -71,7 +71,7 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "test": "echo \"Test passed\" "
+    "test": "echo \"Test passed\" ",
     "start": "node app.js"
   },
   "keywords": [],
